@@ -1,0 +1,28 @@
+h1{
+    font-family: Arial,Helvetica sans-serif;
+    color: red;
+    background: black;
+    text-align: center;
+}
+
+p{
+    color:green;
+    background:yellow;
+    text-align:justify;
+    font-size: 20px;
+
+}
+div p{
+    height: 300px;
+    width: 200px;
+    padding: 8px;
+    background:url(images/1.jpg) ;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+p .c2{
+    background:red;
+
+}
