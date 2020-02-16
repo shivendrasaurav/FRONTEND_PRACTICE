@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fluentdesignforweb.github.io/normalize.css" type="text/css" rel="stylesheet">
+    <link href="https://fluentdesignforweb.github.io/fluent.css" type="text/css" rel="stylesheet">
+    <title>Side Panel</title>
+    <script src="https://fluentdesignforweb.github.io/fluent.js"></script>
+</head>
+<body>
+    <div id="body">
+
+        <br><br><br><br>
+
+        <h5>All the content you want to write on the page will come in this div which has the ID set as body</h5>
+        <br><br>
+        <h6>Click on the button below to open Side Panel</h6>
+        <button class="frost_container small primary_blue" onmouseover="frosting();" onclick="openside1();">
+            <span class="frost">Click to open Side Panel</span>
+        </button>
+
+        <br><br><br><br>
+
+    </div>
+
+    <div id="side1" class="sidepanel_container">
+        <div class="sidepanel_content zi3 right">
+            <button class="primary_red right ta_center mod_close_btn" onclick="closeside1();">X</button>
+            <br><br><br><br>
+            <div class="page_container">
+                <div class="large12 panel_item">Panel Item 1</div>
+                <div class="large12 panel_item">Panel Item 2</div>
+                <div class="large12 panel_item">Panel Item 3</div>
+                <div class="large12 panel_item">Panel Item 4</div>
+                <div class="large12 panel_item">Panel Item 5</div>
+                <div class="large12 panel_item">Panel Item 6</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
